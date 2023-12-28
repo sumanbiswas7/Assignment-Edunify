@@ -1,0 +1,48 @@
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   overflow-y: hidden;
+   padding: 1rem;
+}
+
+.back_btn {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+   padding: 0.35rem 1rem;
+   border-radius: 0.5rem;
+   border: none;
+   font-size: 1.1rem;
+   background-color: #141414;
+   color: #fff;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   background-color: #ebebeb;
+   border: 1px solid #d6d6d6;
+   width: 40rem;
+   padding: 1.5rem;
+   border-radius: 0.35rem;
+
+   .title {
+      margin-bottom: 0.5rem;
+   }
+
+   .inp,
+   .btn {
+      padding: 0.5rem 0.75rem;
+      font-size: 1.05rem;
+      border-radius: 2px;
+      border: none;
+   }
+
+   .btn {
+      background-color: #141414;
+      color: #fff;
+   }
+}
